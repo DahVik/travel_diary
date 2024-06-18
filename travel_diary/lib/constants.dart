@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+String defaultProfilePic = "assets/images/defaultProfilePic.jpeg";
+String mountain = "assets/images/mountain.jpeg";
+String city = "assets/images/city.webp";
+String island = "assets/images/island.jpeg";
+String beaches = "assets/images/beaches.jpg";
+String hilly = "assets/images/hilly.jpeg";
+String heritage = "assets/images/heritage.jpg";
+String createAdd = "assets/images/add.png";
+String logo = "assets/images/logo.jpg";
+
+const Color primaryColor = Color(0xFFEF456F);
+const Color secondaryColor = Color(0xFFFACB31);
+const Color secondaryColorShade = Color(0xFFFEF2F5);
+const Color headingColor = Color(0xFF000000);
+const Color subHeadingColor = Color(0xFF575859);
+const Color highlightColor = Color(0xFFFFFFFF);
+const Color errorColor = Color(0xFFFF3040);
+const Color disableColor = Color(0xFFF1F0F5);
+const Color disableColor2 = Color(0xFFE9E9EB);
+const Color disableColorShade = Color(0xFFAAABAB);
+const Color hintColor = Color(0xFFAAAAAA);
+const Color successColor = Color(0xFF1CA672);
+const Color screenBackground = Color(0xFFF6F6F6);
+const Color senderPrimary = Color(0xFFFFD3DE);
+const Color senderSecondary = Color(0xFFFAC8D3);
+const Color receiverSecondary = Color.fromRGBO(87, 88, 89, 0.2);
+const Color secondaryText = Color(0xFF1F1F1F);
+const Color chatInputBackground = Color(0xFFF6F6F6);
+Color tribeCardBack = const Color(0xFF323232).withOpacity(0.2);
