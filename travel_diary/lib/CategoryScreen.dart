@@ -11,7 +11,7 @@ class CategoryScreen extends StatelessWidget {
         child: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              backgroundColor: Colors.green,
+              backgroundColor: Colors.black,
               title: Text(
                 "Penned Journos by Categories",
                 style: TextStyle(color: Colors.white , fontWeight: FontWeight.bold),

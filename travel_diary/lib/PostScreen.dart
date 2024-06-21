@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:travel_diary/constants.dart';
+import 'package:travel_diary/controllers/showController.dart';
 import 'package:travel_diary/showPost.dart';
 
 class PostScreen extends StatelessWidget {
-  const PostScreen({super.key});
+  ShowController showController = Get.put(ShowController());
+  PostScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +14,7 @@ class PostScreen extends StatelessWidget {
         child: Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.black,
         title: Text(
           "Penned Journos",
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
@@ -40,6 +42,8 @@ class PostScreen extends StatelessWidget {
         children: [
           GestureDetector(
             onTap: () {
+              showController.imageList.value = [];
+              showController.addList();
               Get.to(ShowPost());
             },
             child: ClipRRect(
@@ -65,7 +69,7 @@ class PostScreen extends StatelessWidget {
               Text("Amount"),
               Container(
                 height: 100,
-                width: Get.width*0.5-60,
+                width: Get.width * 0.5 - 60,
                 child: Text(
                   "descriptionkjkjdnkajsdnkndkjsndkjsndksndksndkssfnksnfsfnksnfksfnksjfnkjsnfksnfksnfk",
                 ),

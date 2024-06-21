@@ -29,7 +29,7 @@ class AddPost extends StatelessWidget {
               Icons.arrow_back_ios,
               color: Colors.white,
             )),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.black,
         title: Text(
           "Create Post",
           style: heading20SemiBoldTextStyle.copyWith(color: Colors.white),

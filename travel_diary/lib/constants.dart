@@ -9,6 +9,7 @@ String hilly = "assets/images/hilly.jpeg";
 String heritage = "assets/images/heritage.jpg";
 String createAdd = "assets/images/add.png";
 String logo = "assets/images/logo.jpg";
+String insta = "assets/images/ig.jpeg";
 
 const Color primaryColor = Color(0xFFEF456F);
 const Color secondaryColor = Color(0xFFFACB31);
